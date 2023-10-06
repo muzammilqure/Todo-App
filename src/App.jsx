@@ -41,7 +41,7 @@ const App = () => {
   return (
     <>
       <NewTodoForm addTodo={addTodo} />
-      <h1 className="text-3xl m-7 font-bold">Todo List :</h1>
+      <h1 className="text-2xl m-7 font-bold">Todo List :</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
     </>
   );

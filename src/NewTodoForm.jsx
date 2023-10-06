@@ -11,7 +11,7 @@ const NewTodoForm = ({ addTodo }) => {
   };
   return (
     <>
-      <h1 className="flex items-center justify-center m-1 text-2xl my-10 font-extrabold italic">
+      <h1 className="flex items-center justify-center m-1 text-3xl my-10 font-extrabold italic">
         TODO App
       </h1>
       <form
